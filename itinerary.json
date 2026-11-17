@@ -33,10 +33,11 @@
       "confirmed": [
         {
           "time": "11:40",
-          "title": "Arrive at Heathrow Airport",
-          "detail": "Scheduled flight arrival. Allow time for immigration, baggage and finding the driver.",
+          "title": "✈️ Delta DL0036 arrives at Heathrow (LHR)",
+          "detail": "Scheduled arrival at 11:40 AM London time. Allow time for immigration and luggage.",
           "place": "Heathrow Airport, London, United Kingdom",
-          "transport": "Follow airport signs and transfer-provider instructions. Do not plan a fixed sightseeing start time."
+          "transport": "Follow airport signs and transfer-provider instructions. Do not plan a fixed sightseeing start time.",
+          "tips": []
         },
         {
           "time": "13:45",
@@ -44,7 +45,12 @@
           "detail": "12-seat minibus for seven travelers and luggage. Booking #78820605.",
           "place": "Heathrow Airport, London, United Kingdom",
           "destination": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
-          "transport": "Prebooked private transfer to hotel. Confirm the exact meeting point in the provider confirmation."
+          "transport": "Prebooked private transfer to hotel. Confirm the exact meeting point in the provider confirmation.",
+          "routeSteps": [
+            "Use your confirmed private minibus transfer.",
+            "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
+          ],
+          "tips": []
         }
       ],
       "planned": [
@@ -52,9 +58,14 @@
           "title": "Southbank Christmas Market",
           "detail": "Easy riverside wander and casual food, only if everyone has energy.",
           "place": "Southbank Centre, Belvedere Road, London, United Kingdom",
-          "transport": "Walk from the hotel along the South Bank."
+          "transport": "Walk from the hotel along the South Bank.",
+          "tips": [
+            "Keep this optional after the overnight flight.",
+            "Stay close to the hotel and prioritize rest if anyone is tired."
+          ]
         }
-      ]
+      ],
+      "knowBefore": "Long travel day. Keep the afternoon light and leave time for immigration and bags."
     },
     {
       "date": "2026-11-23",
@@ -68,14 +79,29 @@
           "detail": "Ticketed entry window 10:00–10:30 AM. Bring PRINTED tickets. Suggested hotel departure: 9:30 AM (planning buffer, not a booking time).",
           "place": "Westminster Abbey, Dean's Yard, London SW1P 3PA, United Kingdom",
           "origin": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
-          "transport": "Walk across Westminster Bridge and toward the Abbey. Allow roughly 15–20 minutes plus time for entry."
+          "transport": "Walk across Westminster Bridge and toward the Abbey. Allow roughly 15–20 minutes plus time for entry.",
+          "leaveBy": "9:30 AM · leave hotel on foot",
+          "routeSteps": [
+            "Walk from Premier Inn London County Hall toward Westminster Bridge.",
+            "Cross Westminster Bridge to the north side of the Thames.",
+            "Continue toward Westminster Abbey and allow time for ticket/security checks."
+          ],
+          "tips": [
+            "Bring your printed tickets; the booking instructions specifically request them.",
+            "Look for the Coronation Chair, Poets’ Corner and royal tombs.",
+            "Use the multimedia guide if available; allow time for security."
+          ]
         },
         {
           "time": "19:00",
           "title": "Dinner at 34 Mayfair",
           "detail": "OpenTable reservation for seven; standard seating.",
           "place": "34 Mayfair, 34 Grosvenor Square, London W1K 2HD, United Kingdom",
-          "transport": "From the Carnaby/Soho area, walk if comfortable (approximately 20–25 minutes) or use a taxi. Check live directions."
+          "transport": "From the Carnaby/Soho area, walk if comfortable (approximately 20–25 minutes) or use a taxi. Check live directions.",
+          "tips": [
+            "Your reservation is for seven at 7:00 PM.",
+            "Check the dress code before leaving and allow time to reach Mayfair."
+          ]
         }
       ],
       "planned": [
@@ -84,9 +110,14 @@
           "detail": "Festive shops, lights, browsing and cafés after Westminster.",
           "place": "Carnaby Street, London W1F, United Kingdom",
           "origin": "Westminster Abbey, Dean's Yard, London SW1P 3PA, United Kingdom",
-          "transport": "Consider the Tube or taxi from Westminster toward Oxford Circus, then walk. Alternatively, walk if the group wants a longer city stroll."
+          "transport": "Consider the Tube or taxi from Westminster toward Oxford Circus, then walk. Alternatively, walk if the group wants a longer city stroll.",
+          "tips": [
+            "Look up to see the seasonal decorations and lights.",
+            "An easy place to split into smaller shopping groups and regroup at a café."
+          ]
         }
-      ]
+      ],
+      "knowBefore": "Print Westminster Abbey tickets and wear comfortable shoes for walking and shopping."
     },
     {
       "date": "2026-11-24",
@@ -99,7 +130,19 @@
           "detail": "Ticketed entry at 10:00 AM. Booking reference DVOU6B2HDHSWV. Suggested hotel departure: 9:00 AM, subject to live transit.",
           "place": "Tower of London, London EC3N 4AB, United Kingdom",
           "origin": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
-          "transport": "Take the Tube toward Tower Hill or use a taxi; walking is possible but longer. Check current service and allow a generous entry buffer."
+          "transport": "Walk to Westminster Underground station. Take an eastbound District or Circle line train to Tower Hill, then walk to the Tower entrance; confirm service and platform on the day.",
+          "leaveBy": "9:00 AM · suggested hotel departure",
+          "routeSteps": [
+            "Walk to Westminster Underground station.",
+            "Take the District or Circle line eastbound to Tower Hill (check live service).",
+            "Follow signs to Tower of London; allow time for security and entry."
+          ],
+          "tips": [
+            "Head to the Crown Jewels early, before the queue grows.",
+            "Don’t miss a Yeoman Warder (Beefeater) tour; check the day’s start times when you enter.",
+            "Look for the ravens and explore the White Tower if time allows.",
+            "Allow around 2–3 hours and expect cobbles and uneven surfaces."
+          ]
         }
       ],
       "planned": [
@@ -108,14 +151,20 @@
           "detail": "Flexible lunch stop. Market stall opening varies; verify before heading over.",
           "place": "Borough Market, 8 Southwark Street, London SE1 1TL, United Kingdom",
           "origin": "Tower of London, London EC3N 4AB, United Kingdom",
-          "transport": "Walk across Tower Bridge and along the south side toward Borough Market (roughly 25–35 minutes), or take transit/taxi if tired."
+          "transport": "Walk across Tower Bridge and along the south side toward Borough Market (roughly 25–35 minutes), or take transit/taxi if tired.",
+          "tips": [
+            "Check Tuesday trading hours before walking over.",
+            "A flexible lunch works best; food stalls and queues vary."
+          ]
         },
         {
           "title": "Hotel rest",
           "detail": "Keep the afternoon free to recharge.",
-          "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom"
+          "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
+          "tips": []
         }
-      ]
+      ],
+      "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour."
     },
     {
       "date": "2026-11-25",
@@ -128,7 +177,18 @@
           "detail": "Timed-entry tickets booked for 10:00 AM. Suggested hotel departure: 9:10 AM, subject to live transit.",
           "place": "British Museum, Great Russell Street, London WC1B 3DG, United Kingdom",
           "origin": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
-          "transport": "Tube or taxi recommended; allow time to walk from the station and clear security."
+          "transport": "Walk to Waterloo station. Take a northbound Northern line train toward Tottenham Court Road (check branch/service), then walk to the Great Russell Street entrance.",
+          "leaveBy": "9:10 AM · suggested hotel departure",
+          "routeSteps": [
+            "Walk to Waterloo Underground station.",
+            "Take the Northern line toward Tottenham Court Road (check the correct branch and live service).",
+            "Walk to the British Museum entrance on Great Russell Street."
+          ],
+          "tips": [
+            "Start with the Rosetta Stone and the Egyptian galleries if these are priorities.",
+            "The Parthenon sculptures are another major highlight.",
+            "Choose two or three galleries rather than trying to see everything."
+          ]
         },
         {
           "time": "19:30",
@@ -136,7 +196,18 @@
           "detail": "Golden Tours London Christmas Lights Bus Tour with Live Guide. 7 tickets, lower deck (London Eye). 1.5 hours. Booking reference ZNGV737M. Suggested arrival 7:10 PM (not an official check-in requirement). Look for buses beside Jubilee Gardens on Belvedere Road, in front of the London Eye.",
           "place": "Belvedere Road tourist bus stop, Jubilee Gardens, London SE1 7NA, United Kingdom",
           "transport": "Walk from Premier Inn London County Hall to the tourist bus stop on Belvedere Road beside Jubilee Gardens. No Tube needed. Check the exact bus position on arrival.",
-          "origin": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom"
+          "origin": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
+          "leaveBy": "7:00 PM · suggested hotel departure",
+          "routeSteps": [
+            "Walk to Belvedere Road by Jubilee Gardens and the London Eye.",
+            "Find the tourist bus stop and the Golden Tours lower-deck departure.",
+            "Aim to arrive around 7:10 PM for the 7:30 PM tour."
+          ],
+          "tips": [
+            "Meeting point is the tourist bus stop on Belvedere Road beside Jubilee Gardens, in front of the London Eye.",
+            "Your tickets are for the lower deck; arrive early enough to find the correct bus.",
+            "Wear warm layers for the walk and wait outside."
+          ]
         }
       ],
       "planned": [
@@ -145,9 +216,11 @@
           "detail": "Choose cafés, shops or a rest depending on energy. Covent Garden is an optional idea, not a confirmed stop.",
           "place": "Covent Garden, London WC2E, United Kingdom",
           "origin": "British Museum, Great Russell Street, London WC1B 3DG, United Kingdom",
-          "transport": "Walk if everyone is comfortable; use live maps for the specific route."
+          "transport": "Walk if everyone is comfortable; use live maps for the specific route.",
+          "tips": []
         }
-      ]
+      ],
+      "knowBefore": "Museum in the morning, bus tour in the evening. Bring a warm coat for waiting outside."
     },
     {
       "date": "2026-11-26",
@@ -159,36 +232,59 @@
           "title": "The Play That Goes Wrong",
           "detail": "Duchess Theatre, stalls seating. Ticket says e-tickets/barcodes appear November 25 at 7:30 PM London time, 24 hours before the show. Check Wallet that evening. Curtain time inferred as 7:30 PM from ticket-release instructions; verify against ticket face.",
           "place": "Duchess Theatre, 3-5 Catherine Street, London WC2B 5LA, United Kingdom",
-          "transport": "Duchess Theatre is in Covent Garden. Use walking directions from your last shopping stop or hotel; allow time to be seated before curtain."
+          "transport": "Duchess Theatre is in Covent Garden. Use walking directions from your last shopping stop or hotel; allow time to be seated before curtain.",
+          "leaveBy": "Allow 20–30 minutes before curtain; verify actual showtime",
+          "routeSteps": [
+            "Duchess Theatre is at 3–5 Catherine Street, near Covent Garden.",
+            "From Liberty / central shopping stops, check live walking directions; from hotel, check Tube or taxi options.",
+            "Confirm the showtime on the actual ticket before choosing a departure time."
+          ],
+          "tips": [
+            "Check the ticket face for the curtain time; 7:30 PM is inferred from the barcode release note, not independently confirmed.",
+            "E-ticket barcodes are expected to appear Wednesday, November 25 at 7:30 PM London time.",
+            "Plan to arrive early enough to find your seats without rushing."
+          ]
         }
       ],
       "planned": [
         {
           "title": "Check It Vintage",
           "detail": "Vintage-shopping stop. Verify the store's exact current address and opening hours before setting out.",
-          "transport": "Address not yet verified; no map link until confirmed."
+          "transport": "Address not yet verified; no map link until confirmed.",
+          "tips": []
         },
         {
           "title": "Bond Street",
           "detail": "Window shopping and exploring.",
-          "place": "New Bond Street, London W1S, United Kingdom"
+          "place": "New Bond Street, London W1S, United Kingdom",
+          "tips": []
         },
         {
           "title": "Fortnum & Mason",
           "detail": "Flexible lunch and browsing; dining availability may vary.",
-          "place": "Fortnum & Mason, 181 Piccadilly, London W1A 1ER, United Kingdom"
+          "place": "Fortnum & Mason, 181 Piccadilly, London W1A 1ER, United Kingdom",
+          "tips": [
+            "Browse the food halls even if you do not sit down for lunch.",
+            "Check dining availability before making it the group’s lunch plan."
+          ]
         },
         {
           "title": "Burlington Arcade",
           "detail": "Classic covered shopping arcade.",
-          "place": "Burlington Arcade, 51 Piccadilly, London W1J 0QJ, United Kingdom"
+          "place": "Burlington Arcade, 51 Piccadilly, London W1J 0QJ, United Kingdom",
+          "tips": []
         },
         {
           "title": "Liberty London",
           "detail": "Iconic department store and Christmas shopping.",
-          "place": "Liberty London, Regent Street, London W1B 5AH, United Kingdom"
+          "place": "Liberty London, Regent Street, London W1B 5AH, United Kingdom",
+          "tips": [
+            "Don’t miss the historic Tudor-style exterior and interiors.",
+            "A good stop for distinctive gifts and festive displays."
+          ]
         }
-      ]
+      ],
+      "knowBefore": "Shopping day before the theatre. Verify the curtain time and check for ticket barcodes Wednesday evening."
     },
     {
       "date": "2026-11-27",
@@ -200,20 +296,31 @@
           "title": "Hyde Park Winter Wonderland",
           "detail": "Planned, not ticketed in our records. Check opening times and whether entry needs a booking.",
           "place": "Hyde Park Winter Wonderland, London W2 2UH, United Kingdom",
-          "transport": "Tube or taxi from hotel; check live route and entry gate."
+          "transport": "Tube or taxi from hotel; check live route and entry gate.",
+          "tips": [
+            "Check whether admission requires a timed ticket before heading over.",
+            "Wear comfortable shoes and dress for outdoor queues."
+          ]
         },
         {
           "title": "Harrods Knightsbridge",
           "detail": "Shopping, Jellycat Airlines and the Ralph Lauren Christmas pop-up (availability/location to verify). No Burberry photo booth.",
           "place": "Harrods, 87-135 Brompton Road, London SW1X 7XL, United Kingdom",
           "origin": "Hyde Park Winter Wonderland, London W2 2UH, United Kingdom",
-          "transport": "Walk toward Knightsbridge if comfortable or take a short taxi/Tube ride. Check the precise Winter Wonderland exit."
+          "transport": "Walk toward Knightsbridge if comfortable or take a short taxi/Tube ride. Check the precise Winter Wonderland exit.",
+          "tips": [
+            "Head to Jellycat Airlines first if it is the main priority.",
+            "Ask staff whether the Ralph Lauren Christmas pop-up is operating and where to find it.",
+            "Harrods is large: agree on a meeting point if the group splits up."
+          ]
         },
         {
           "title": "Casual dinner",
-          "detail": "Eat wherever the group lands. No formal farewell dinner reservation."
+          "detail": "Eat wherever the group lands. No formal farewell dinner reservation.",
+          "tips": []
         }
-      ]
+      ],
+      "knowBefore": "Flexible shopping day. Check Winter Wonderland entry and Harrods experiences before heading out."
     },
     {
       "date": "2026-11-28",
@@ -226,16 +333,41 @@
           "detail": "CONFIRMED return minibus pickup at 10:00 AM, booking #78820606. This supersedes the older 12:30 PM departure plan. Be ready early with luggage.",
           "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
           "destination": "Heathrow Airport, London, United Kingdom",
-          "transport": "Prebooked private minibus to Heathrow. Check pickup location with the provider."
+          "transport": "Prebooked private minibus to Heathrow. Check pickup location with the provider.",
+          "routeSteps": [
+            "Use your confirmed private minibus transfer.",
+            "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
+          ],
+          "tips": []
         },
         {
           "time": "15:50",
-          "title": "Flight DL0037 departs",
+          "title": "✈️ Delta DL0037 departs Heathrow",
           "detail": "Scheduled departure at 3:50 PM from Heathrow. Verify airline terminal and flight status.",
-          "place": "Heathrow Airport, London, United Kingdom"
+          "place": "Heathrow Airport, London, United Kingdom",
+          "tips": []
         }
       ],
-      "planned": []
+      "planned": [],
+      "knowBefore": "Private transfer pickup is 10:00 AM. Be downstairs with luggage a little early."
+    }
+  ],
+  "flights": [
+    {
+      "date": "2026-11-22",
+      "time": "11:40",
+      "label": "Arrive in London",
+      "flight": "Delta DL0036",
+      "airport": "London Heathrow (LHR)",
+      "note": "Scheduled landing time, not the time we will be outside with luggage."
+    },
+    {
+      "date": "2026-11-28",
+      "time": "15:50",
+      "label": "Depart London",
+      "flight": "Delta DL0037",
+      "airport": "London Heathrow (LHR)",
+      "note": "Check airline app for terminal, check-in and flight-status updates."
     }
   ]
 }
