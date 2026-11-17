@@ -13,6 +13,10 @@
       "detail": "Dial 999 or 112 for emergencies."
     },
     {
+      "title": "U.S. Embassy London — American citizen assistance",
+      "detail": "Phone: +44 20 7499 9000 (main switchboard and after-hours emergencies). From a UK landline: 020 7499 9000. Address: 33 Nine Elms Lane, London SW11 7US. For immediate police, fire or ambulance help, call 999 or 112."
+    },
+    {
       "title": "Getting around",
       "detail": "Use contactless payment for most Tube and bus journeys. Each traveler should use their own payment card or device; check child fares separately."
     },
@@ -37,7 +41,8 @@
           "detail": "Scheduled arrival at 11:40 AM London time. Allow time for immigration and luggage.",
           "place": "Heathrow Airport, London, United Kingdom",
           "transport": "Follow airport signs and transfer-provider instructions. Do not plan a fixed sightseeing start time.",
-          "tips": []
+          "tips": [],
+          "scheduleType": "transport"
         },
         {
           "time": "13:45",
@@ -50,7 +55,8 @@
             "Use your confirmed private minibus transfer.",
             "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
           ],
-          "tips": []
+          "tips": [],
+          "scheduleType": "transport"
         }
       ],
       "planned": [
@@ -62,7 +68,8 @@
           "tips": [
             "Keep this optional after the overnight flight.",
             "Stay close to the hotel and prioritize rest if anyone is tired."
-          ]
+          ],
+          "scheduleType": "flexible"
         }
       ],
       "knowBefore": "Long travel day. Keep the afternoon light and leave time for immigration and bags."
@@ -90,6 +97,16 @@
             "Bring your printed tickets; the booking instructions specifically request them.",
             "Look for the Coronation Chair, Poets’ Corner and royal tombs.",
             "Use the multimedia guide if available; allow time for security."
+          ],
+          "scheduleType": "ticketed",
+          "travelOptions": [
+            {
+              "mode": "Walk",
+              "duration": "15–20 min",
+              "meet": "9:25 AM",
+              "leave": "9:30 AM",
+              "detail": "Walk across Westminster Bridge and toward the Abbey; allow time for security."
+            }
           ]
         },
         {
@@ -101,6 +118,16 @@
           "tips": [
             "Your reservation is for seven at 7:00 PM.",
             "Check the dress code before leaving and allow time to reach Mayfair."
+          ],
+          "scheduleType": "reservation",
+          "travelOptions": [
+            {
+              "mode": "Tube / taxi",
+              "duration": "25–45 min",
+              "meet": "6:05 PM",
+              "leave": "6:10 PM",
+              "detail": "Check live routing and allow time to reach Grosvenor Square before the 7:00 PM reservation."
+            }
           ]
         }
       ],
@@ -114,7 +141,8 @@
           "tips": [
             "Look up to see the seasonal decorations and lights.",
             "An easy place to split into smaller shopping groups and regroup at a café."
-          ]
+          ],
+          "scheduleType": "flexible"
         }
       ],
       "knowBefore": "Print Westminster Abbey tickets and wear comfortable shoes for walking and shopping."
@@ -142,6 +170,30 @@
             "Don’t miss a Yeoman Warder (Beefeater) tour; check the day’s start times when you enter.",
             "Look for the ravens and explore the White Tower if time allows.",
             "Allow around 2–3 hours and expect cobbles and uneven surfaces."
+          ],
+          "scheduleType": "ticketed",
+          "travelOptions": [
+            {
+              "mode": "Tube",
+              "duration": "35–50 min door to door",
+              "meet": "8:55 AM",
+              "leave": "9:00 AM",
+              "detail": "Walk to Westminster station (about 10–12 min). Take an eastbound District or Circle line train to Tower Hill, then walk about 5–10 min to the Tower. Allow extra time for station access and security."
+            },
+            {
+              "mode": "Taxi / car",
+              "duration": "25–50 min in traffic",
+              "meet": "8:55 AM",
+              "leave": "9:00 AM",
+              "detail": "Arrange a large enough vehicle or two cars for seven people. Central London traffic is unpredictable; allow additional time."
+            },
+            {
+              "mode": "Walk",
+              "duration": "55–70 min",
+              "meet": "8:35 AM",
+              "leave": "8:40 AM",
+              "detail": "Scenic walk along the Thames toward Tower Bridge and the Tower. Allow time for crossings and a comfortable group pace."
+            }
           ]
         }
       ],
@@ -155,13 +207,15 @@
           "tips": [
             "Check Tuesday trading hours before walking over.",
             "A flexible lunch works best; food stalls and queues vary."
-          ]
+          ],
+          "scheduleType": "flexible"
         },
         {
           "title": "Hotel rest",
           "detail": "Keep the afternoon free to recharge.",
           "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
-          "tips": []
+          "tips": [],
+          "scheduleType": "flexible"
         }
       ],
       "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour."
@@ -188,6 +242,23 @@
             "Start with the Rosetta Stone and the Egyptian galleries if these are priorities.",
             "The Parthenon sculptures are another major highlight.",
             "Choose two or three galleries rather than trying to see everything."
+          ],
+          "scheduleType": "ticketed",
+          "travelOptions": [
+            {
+              "mode": "Tube / walk",
+              "duration": "35–50 min",
+              "meet": "9:05 AM",
+              "leave": "9:10 AM",
+              "detail": "Check a live route from the hotel; allow time for station access and museum entry."
+            },
+            {
+              "mode": "Taxi",
+              "duration": "25–45 min",
+              "meet": "9:05 AM",
+              "leave": "9:10 AM",
+              "detail": "Traffic can vary. Allow time for security and entry."
+            }
           ]
         },
         {
@@ -207,6 +278,16 @@
             "Meeting point is the tourist bus stop on Belvedere Road beside Jubilee Gardens, in front of the London Eye.",
             "Your tickets are for the lower deck; arrive early enough to find the correct bus.",
             "Wear warm layers for the walk and wait outside."
+          ],
+          "scheduleType": "ticketed",
+          "travelOptions": [
+            {
+              "mode": "Walk",
+              "duration": "5–10 min",
+              "meet": "7:05 PM",
+              "leave": "7:10 PM",
+              "detail": "Walk from the hotel to the Belvedere Road tourist bus stop near Jubilee Gardens. Arrive early for boarding; confirm the operator’s instructions."
+            }
           ]
         }
       ],
@@ -217,15 +298,16 @@
           "place": "Covent Garden, London WC2E, United Kingdom",
           "origin": "British Museum, Great Russell Street, London WC1B 3DG, United Kingdom",
           "transport": "Walk if everyone is comfortable; use live maps for the specific route.",
-          "tips": []
+          "tips": [],
+          "scheduleType": "flexible"
         }
       ],
       "knowBefore": "Museum in the morning, bus tour in the evening. Bring a warm coat for waiting outside."
     },
     {
       "date": "2026-11-26",
-      "title": "Vintage & Theatre",
-      "intro": "Shopping through central London, followed by a show.",
+      "title": "Burberry, Shopping & Theatre",
+      "intro": "Liberty and Mayfair shopping, a dedicated vintage Burberry trench hunt in Seven Dials, then Covent Garden and theatre.",
       "confirmed": [
         {
           "time": "19:30",
@@ -243,48 +325,101 @@
             "Check the ticket face for the curtain time; 7:30 PM is inferred from the barcode release note, not independently confirmed.",
             "E-ticket barcodes are expected to appear Wednesday, November 25 at 7:30 PM London time.",
             "Plan to arrive early enough to find your seats without rushing."
+          ],
+          "scheduleType": "ticketed",
+          "travelOptions": [
+            {
+              "mode": "Walk / transit",
+              "duration": "20–35 min",
+              "meet": "6:40 PM",
+              "leave": "6:45 PM",
+              "detail": "Travel to the Duchess Theatre, 3–5 Catherine Street. Curtain time is listed as 7:30 PM in the current itinerary; verify against your original ticket."
+            }
           ]
         }
       ],
       "planned": [
         {
-          "title": "Check It Vintage",
-          "detail": "Vintage-shopping stop. Verify the store's exact current address and opening hours before setting out.",
-          "transport": "Address not yet verified; no map link until confirmed.",
-          "tips": []
+          "title": "Liberty London",
+          "detail": "Begin the shopping day at the Tudor-style department store; browse fashion, accessories, home and Christmas gifts.",
+          "place": "Liberty London, Regent Street, London W1B 5AH, United Kingdom",
+          "tips": [
+            "Explore the historic timbered interior, not just the ground floor.",
+            "Suggested hotel meet-up 9:15 AM; depart around 9:20 AM. Check live routing for seven people."
+          ],
+          "suggestedTime": "10:00",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked",
+          "transport": "From Premier Inn London County Hall, check live walking/Tube directions to Liberty; allow roughly 35–45 minutes including group buffer."
         },
         {
           "title": "Bond Street",
-          "detail": "Window shopping and exploring.",
-          "place": "New Bond Street, London W1S, United Kingdom",
-          "tips": []
-        },
-        {
-          "title": "Fortnum & Mason",
-          "detail": "Flexible lunch and browsing; dining availability may vary.",
-          "place": "Fortnum & Mason, 181 Piccadilly, London W1A 1ER, United Kingdom",
+          "detail": "Stroll the designer storefronts and festive displays; window-shopping is the plan.",
+          "place": "New Bond Street, Mayfair, London, United Kingdom",
           "tips": [
-            "Browse the food halls even if you do not sit down for lunch.",
-            "Check dining availability before making it the group’s lunch plan."
-          ]
+            "Treat this as a stroll rather than a mission to visit every shop."
+          ],
+          "suggestedTime": "11:15",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked",
+          "transport": "Walk west from Liberty toward New Bond Street; use the live walking map for your chosen stores."
         },
         {
           "title": "Burlington Arcade",
-          "detail": "Classic covered shopping arcade.",
+          "detail": "Beautiful historic covered arcade; a short browse and photo stop.",
           "place": "Burlington Arcade, 51 Piccadilly, London W1J 0QJ, United Kingdom",
-          "tips": []
+          "tips": [
+            "A quick visit is plenty unless a shop catches your eye."
+          ],
+          "suggestedTime": "12:15",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked",
+          "transport": "Walk south from Bond Street toward Piccadilly."
         },
         {
-          "title": "Liberty London",
-          "detail": "Iconic department store and Christmas shopping.",
-          "place": "Liberty London, Regent Street, London W1B 5AH, United Kingdom",
+          "title": "Fortnum & Mason",
+          "detail": "Flexible lunch plus tea, biscuits, food halls, gifts and festive displays. No lunch reservation.",
+          "place": "Fortnum & Mason, 181 Piccadilly, London W1A 1ER, United Kingdom",
           "tips": [
-            "Don’t miss the historic Tudor-style exterior and interiors.",
-            "A good stop for distinctive gifts and festive displays."
-          ]
+            "Explore the food halls even if you eat elsewhere.",
+            "For seven picky eaters, be prepared to choose a nearby café if sit-down dining has a wait."
+          ],
+          "suggestedTime": "12:45",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked",
+          "transport": "A short walk east along Piccadilly from Burlington Arcade."
+        },
+        {
+          "title": "Check It Vintage — Burberry trench mission",
+          "suggestedTime": "14:30",
+          "detail": "PRIORITY STOP: shop for a vintage Burberry trench coat. Set aside 45–60 minutes to try on several cuts and inspect condition; purchase is the goal, but stock and fit are not guaranteed.",
+          "place": "Check It Vintage, 1 Short’s Gardens, London WC2H 9AT, United Kingdom",
+          "tips": [
+            "Listed opening hours Thursday noon–7 PM; confirm again before the trip.",
+            "Ask staff to bring several lengths and sizes, including any additional stock. Vintage label sizes are inconsistent.",
+            "Check shoulder fit, sleeve length, lining, belt, buttons, underarms, cuffs and any stains or alterations.",
+            "Current online trenches often list around £650–£800; in-store prices and inventory may differ.",
+            "Ask about authenticity, returns and whether tax or alteration charges apply before paying."
+          ],
+          "transport": "Walk toward Seven Dials / Covent Garden from Fortnum & Mason; allow approximately 20–30 minutes and verify the route live.",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked"
+        },
+        {
+          "title": "Covent Garden & Seven Dials",
+          "suggestedTime": "15:45",
+          "detail": "Explore Christmas decorations, boutiques, cafés and Seven Dials. Take a break before the evening show.",
+          "place": "Covent Garden Piazza, London WC2E 8RF, United Kingdom",
+          "tips": [
+            "Keep this open-ended; grab a snack or early casual dinner.",
+            "The Duchess Theatre is nearby; verify the show curtain time on the ticket."
+          ],
+          "transport": "Walk from Check It Vintage toward Covent Garden Piazza; later continue on foot to Duchess Theatre.",
+          "scheduleType": "flexible",
+          "timeNote": "Suggested time · flexible, not booked"
         }
       ],
-      "knowBefore": "Shopping day before the theatre. Verify the curtain time and check for ticket barcodes Wednesday evening."
+      "knowBefore": "Shopping stops and times are flexible, not bookings. PRIORITY: Check It Vintage (1 Short’s Gardens) opens at noon according to current listings; allow plenty of try-on time for a vintage Burberry trench. Meet at hotel about 9:15 AM, aim to leave 9:20 AM. Theatre curtain time remains unverified: check your original ticket."
     },
     {
       "date": "2026-11-27",
@@ -300,7 +435,8 @@
           "tips": [
             "Check whether admission requires a timed ticket before heading over.",
             "Wear comfortable shoes and dress for outdoor queues."
-          ]
+          ],
+          "scheduleType": "flexible"
         },
         {
           "title": "Harrods Knightsbridge",
@@ -312,12 +448,14 @@
             "Head to Jellycat Airlines first if it is the main priority.",
             "Ask staff whether the Ralph Lauren Christmas pop-up is operating and where to find it.",
             "Harrods is large: agree on a meeting point if the group splits up."
-          ]
+          ],
+          "scheduleType": "flexible"
         },
         {
           "title": "Casual dinner",
           "detail": "Eat wherever the group lands. No formal farewell dinner reservation.",
-          "tips": []
+          "tips": [],
+          "scheduleType": "flexible"
         }
       ],
       "knowBefore": "Flexible shopping day. Check Winter Wonderland entry and Harrods experiences before heading out."
@@ -338,14 +476,16 @@
             "Use your confirmed private minibus transfer.",
             "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
           ],
-          "tips": []
+          "tips": [],
+          "scheduleType": "transport"
         },
         {
           "time": "15:50",
           "title": "✈️ Delta DL0037 departs Heathrow",
           "detail": "Scheduled departure at 3:50 PM from Heathrow. Verify airline terminal and flight status.",
           "place": "Heathrow Airport, London, United Kingdom",
-          "tips": []
+          "tips": [],
+          "scheduleType": "transport"
         }
       ],
       "planned": [],
