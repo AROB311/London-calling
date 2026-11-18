@@ -203,6 +203,24 @@
             }
           ],
           "bookingReference": "DVOU6B2HDHSWV"
+        },
+        {
+          "title": "Aimee & Brody — dinner for two",
+          "detail": "Confirmed dinner plans for Aimee and Brody. Restaurant, reservation, and departure time have not yet been set.",
+          "scheduleType": "confirmed-plan",
+          "timeNote": "Tuesday evening · time and place TBD",
+          "tips": [
+            "Choose restaurant and time once other Tuesday plans are settled."
+          ]
+        },
+        {
+          "title": "Mike & Linda — kids dinner and evening",
+          "detail": "Confirmed childcare plan: Mike and Linda will take Lily, Zoe and Palmer to dinner and entertain them while Aimee and Brody are out. Dinner location is flexible.",
+          "scheduleType": "confirmed-plan",
+          "timeNote": "Tuesday evening · coordinated with date night",
+          "tips": [
+            "Agree on a handoff time and easy dinner plan."
+          ]
         }
       ],
       "planned": [
@@ -224,27 +242,9 @@
           "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
           "tips": [],
           "scheduleType": "flexible"
-        },
-        {
-          "title": "Aimee & Brody — dinner for two",
-          "detail": "Couples dinner night. Restaurant, reservation and departure time TBD; do not treat as booked.",
-          "scheduleType": "flexible",
-          "timeNote": "Tuesday evening · time and place TBD",
-          "tips": [
-            "Choose restaurant and time once other Tuesday plans are settled."
-          ]
-        },
-        {
-          "title": "Mike & Linda — kids dinner and evening",
-          "detail": "Mike and Linda take Lily, Zoe and Palmer to dinner and entertain them while Aimee and Brody are out. Restaurant and plans flexible.",
-          "scheduleType": "flexible",
-          "timeNote": "Tuesday evening · coordinate with date night",
-          "tips": [
-            "Agree on a handoff time and easy dinner plan."
-          ]
         }
       ],
-      "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour. Tuesday evening: Aimee and Brody plan dinner for two (time/location TBD); Mike and Linda cover dinner and entertainment for Lily, Zoe and Palmer."
+      "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour. Tuesday evening: Aimee and Brody have confirmed plans for dinner for two (restaurant/time TBD); Mike and Linda cover dinner and entertainment for Lily, Zoe and Palmer."
     },
     {
       "date": "2026-11-25",
