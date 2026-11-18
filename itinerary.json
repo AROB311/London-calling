@@ -27,6 +27,10 @@
     {
       "title": "Important",
       "detail": "Booking references are for convenience; keep original tickets and confirmations available separately. Printed Westminster Abbey tickets required per booking instructions."
+    },
+    {
+      "title": "Booking & confirmation numbers",
+      "detail": "Sun Nov 22 · Heathrow pickup: Transfeero 78820605; Tue Nov 24 · Tower of London: DVOU6B2HDHSWV; Wed Nov 25 · Christmas Lights Bus Tour: ZNGV737M; Thu Nov 26 · Connaught tea (Aimee & Linda): 4VC7SUW6MDN6; Sat Nov 28 · Hotel pickup: Transfeero 78820606. Westminster Abbey, British Museum, 34 Mayfair, and The Play That Goes Wrong are booked, but confirmation numbers were not provided. Keep original tickets and emails."
     }
   ],
   "days": [
@@ -56,7 +60,8 @@
             "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
           ],
           "tips": [],
-          "scheduleType": "transport"
+          "scheduleType": "transport",
+          "bookingReference": "78820605"
         }
       ],
       "planned": [
@@ -96,7 +101,8 @@
           "tips": [
             "Bring your printed tickets; the booking instructions specifically request them.",
             "Look for the Coronation Chair, Poets’ Corner and royal tombs.",
-            "Use the multimedia guide if available; allow time for security."
+            "Use the multimedia guide if available; allow time for security.",
+            "Ticket purchase confirmed; confirmation number not supplied. Bring printed tickets."
           ],
           "scheduleType": "ticketed",
           "travelOptions": [
@@ -117,7 +123,8 @@
           "transport": "From the Carnaby/Soho area, walk if comfortable (approximately 20–25 minutes) or use a taxi. Check live directions.",
           "tips": [
             "Your reservation is for seven at 7:00 PM.",
-            "Check the dress code before leaving and allow time to reach Mayfair."
+            "Check the dress code before leaving and allow time to reach Mayfair.",
+            "OpenTable reservation confirmed for seven; confirmation number not supplied."
           ],
           "scheduleType": "reservation",
           "travelOptions": [
@@ -194,7 +201,8 @@
               "leave": "8:40 AM",
               "detail": "Scenic walk along the Thames toward Tower Bridge and the Tower. Allow time for crossings and a comfortable group pace."
             }
-          ]
+          ],
+          "bookingReference": "DVOU6B2HDHSWV"
         }
       ],
       "planned": [
@@ -216,9 +224,27 @@
           "place": "Premier Inn London County Hall, Belvedere Road, London SE1 7PB, United Kingdom",
           "tips": [],
           "scheduleType": "flexible"
+        },
+        {
+          "title": "Aimee & Brody — dinner for two",
+          "detail": "Couples dinner night. Restaurant, reservation and departure time TBD; do not treat as booked.",
+          "scheduleType": "flexible",
+          "timeNote": "Tuesday evening · time and place TBD",
+          "tips": [
+            "Choose restaurant and time once other Tuesday plans are settled."
+          ]
+        },
+        {
+          "title": "Mike & Linda — kids dinner and evening",
+          "detail": "Mike and Linda take Lily, Zoe and Palmer to dinner and entertain them while Aimee and Brody are out. Restaurant and plans flexible.",
+          "scheduleType": "flexible",
+          "timeNote": "Tuesday evening · coordinate with date night",
+          "tips": [
+            "Agree on a handoff time and easy dinner plan."
+          ]
         }
       ],
-      "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour."
+      "knowBefore": "The Tower has cobbles and uneven surfaces. Prioritize the Crown Jewels and Beefeater tour. Tuesday evening: Aimee and Brody plan dinner for two (time/location TBD); Mike and Linda cover dinner and entertainment for Lily, Zoe and Palmer."
     },
     {
       "date": "2026-11-25",
@@ -241,7 +267,8 @@
           "tips": [
             "Start with the Rosetta Stone and the Egyptian galleries if these are priorities.",
             "The Parthenon sculptures are another major highlight.",
-            "Choose two or three galleries rather than trying to see everything."
+            "Choose two or three galleries rather than trying to see everything.",
+            "Timed entry confirmed; confirmation number not supplied."
           ],
           "scheduleType": "ticketed",
           "travelOptions": [
@@ -288,7 +315,8 @@
               "leave": "7:10 PM",
               "detail": "Walk from the hotel to the Belvedere Road tourist bus stop near Jubilee Gardens. Arrive early for boarding; confirm the operator’s instructions."
             }
-          ]
+          ],
+          "bookingReference": "ZNGV737M"
         }
       ],
       "planned": [
@@ -306,9 +334,35 @@
     },
     {
       "date": "2026-11-26",
-      "title": "Burberry, Shopping & Theatre",
-      "intro": "Liberty and Mayfair shopping, a dedicated vintage Burberry trench hunt in Seven Dials, then Covent Garden and theatre.",
+      "title": "Vintage Burberry, Connaught Tea & Theatre",
+      "intro": "Morning London shopping and Aimee’s vintage Burberry trench mission; Aimee and Linda have confirmed festive tea at The Connaught in Mayfair at 2:30 PM, while Mike and Brody entertain the kids. Theatre together in the evening.",
       "confirmed": [
+        {
+          "time": "14:30",
+          "title": "Jean-Georges at The Connaught — festive afternoon tea",
+          "endTime": null,
+          "scheduleType": "reservation",
+          "bookingReference": "4VC7SUW6MDN6",
+          "detail": "CONFIRMED festive afternoon tea for Aimee and Linda only (party of 2), Thursday November 26 at 2:30 PM. Booking reference 4VC7SUW6MDN6. This REPLACES the previous Fortnum & Mason Royal Exchange tea reservation; do not use the old location or reference. End time not specified by the booking.",
+          "place": "Jean-Georges at The Connaught, The Connaught, Carlos Place, Mayfair, London W1K 2AL, United Kingdom",
+          "transport": "From Check It Vintage in Seven Dials, use a taxi or Tube/walking combination toward Carlos Place in Mayfair. Check live directions; allow approximately 40–55 minutes including a buffer. Aim to depart vintage shopping around 1:30 PM and arrive 10–15 minutes before tea.",
+          "leaveBy": "Suggested departure from Check It Vintage: 1:30 PM; tea is booked for 2:30 PM.",
+          "tips": [
+            "Aimee and Linda only; Mike and Brody supervise Lily, Zoe and Palmer.",
+            "Reservation 4VC7SUW6MDN6; booking is at The Connaught in Mayfair, not Fortnum & Mason.",
+            "Tea finish time is not stated in the reservation; allow roughly 90 minutes for planning, but confirm directly.",
+            "Arrange a reunion with the rest of the family ahead of the evening theatre."
+          ],
+          "travelOptions": [
+            {
+              "mode": "Taxi or Tube",
+              "duration": "Allow 40–55 min including buffer (estimate)",
+              "meet": "1:25 PM",
+              "leave": "1:30 PM",
+              "detail": "Travel from Seven Dials to The Connaught, Carlos Place, Mayfair. Verify route and traffic that day."
+            }
+          ]
+        },
         {
           "time": "19:30",
           "title": "The Play That Goes Wrong",
@@ -324,7 +378,8 @@
           "tips": [
             "Check the ticket face for the curtain time; 7:30 PM is inferred from the barcode release note, not independently confirmed.",
             "E-ticket barcodes are expected to appear Wednesday, November 25 at 7:30 PM London time.",
-            "Plan to arrive early enough to find your seats without rushing."
+            "Plan to arrive early enough to find your seats without rushing.",
+            "Theatre tickets confirmed; booking number not supplied. Check original ticket or booking email."
           ],
           "scheduleType": "ticketed",
           "travelOptions": [
@@ -359,7 +414,7 @@
           "tips": [
             "Treat this as a stroll rather than a mission to visit every shop."
           ],
-          "suggestedTime": "11:15",
+          "suggestedTime": "11:00",
           "scheduleType": "flexible",
           "timeNote": "Suggested time · flexible, not booked",
           "transport": "Walk west from Liberty toward New Bond Street; use the live walking map for your chosen stores."
@@ -371,55 +426,57 @@
           "tips": [
             "A quick visit is plenty unless a shop catches your eye."
           ],
-          "suggestedTime": "12:15",
+          "suggestedTime": "11:40",
           "scheduleType": "flexible",
           "timeNote": "Suggested time · flexible, not booked",
           "transport": "Walk south from Bond Street toward Piccadilly."
         },
         {
-          "title": "Fortnum & Mason",
-          "detail": "Flexible lunch plus tea, biscuits, food halls, gifts and festive displays. No lunch reservation.",
+          "title": "Fortnum & Mason Piccadilly — optional quick browse",
+          "detail": "Optional quick browse at the Piccadilly flagship. NOT the tea venue: Aimee and Linda have tea at The Connaught in Mayfair. Skip if needed to protect trench-shopping time.",
           "place": "Fortnum & Mason, 181 Piccadilly, London W1A 1ER, United Kingdom",
           "tips": [
-            "Explore the food halls even if you eat elsewhere.",
-            "For seven picky eaters, be prepared to choose a nearby café if sit-down dining has a wait."
+            "Aimee and Linda’s tea is at The Connaught at 2:30 PM, not here.",
+            "Keep this brief or skip it to protect the vintage trench shopping time."
           ],
-          "suggestedTime": "12:45",
+          "suggestedTime": "12:00",
           "scheduleType": "flexible",
-          "timeNote": "Suggested time · flexible, not booked",
+          "timeNote": "Optional quick stop · not booked",
           "transport": "A short walk east along Piccadilly from Burlington Arcade."
         },
         {
           "title": "Check It Vintage — Burberry trench mission",
-          "suggestedTime": "14:30",
-          "detail": "PRIORITY STOP: shop for a vintage Burberry trench coat. Set aside 45–60 minutes to try on several cuts and inspect condition; purchase is the goal, but stock and fit are not guaranteed.",
+          "suggestedTime": "12:30",
+          "detail": "PRIORITY vintage Burberry trench mission for Aimee. Allow approximately an hour for trying on coats; aim to finish by 1:30 PM for tea travel. Stock and fit are not guaranteed.",
           "place": "Check It Vintage, 1 Short’s Gardens, London WC2H 9AT, United Kingdom",
           "tips": [
             "Listed opening hours Thursday noon–7 PM; confirm again before the trip.",
             "Ask staff to bring several lengths and sizes, including any additional stock. Vintage label sizes are inconsistent.",
             "Check shoulder fit, sleeve length, lining, belt, buttons, underarms, cuffs and any stains or alterations.",
             "Current online trenches often list around £650–£800; in-store prices and inventory may differ.",
-            "Ask about authenticity, returns and whether tax or alteration charges apply before paying."
+            "Ask about authenticity, returns and whether tax or alteration charges apply before paying.",
+            "Aim to finish around 1:30 PM to get Aimee and Linda to The Connaught by 2:30 PM."
           ],
-          "transport": "Walk toward Seven Dials / Covent Garden from Fortnum & Mason; allow approximately 20–30 minutes and verify the route live.",
+          "transport": "Travel from Piccadilly/Mayfair toward Check It Vintage in Seven Dials; allow about 20–30 minutes on foot. If running late, skip the optional Piccadilly browsing.",
           "scheduleType": "flexible",
           "timeNote": "Suggested time · flexible, not booked"
         },
         {
-          "title": "Covent Garden & Seven Dials",
-          "suggestedTime": "15:45",
-          "detail": "Explore Christmas decorations, boutiques, cafés and Seven Dials. Take a break before the evening show.",
+          "title": "Mike & Brody with the kids — Covent Garden",
+          "suggestedTime": "13:30",
+          "detail": "Mike and Brody take Lily, Zoe and Palmer for a relaxed afternoon of food, shopping or exploring while Aimee and Linda have their confirmed 2:30 PM tea at The Connaught. Arrange a meetup before the theatre.",
           "place": "Covent Garden Piazza, London WC2E 8RF, United Kingdom",
           "tips": [
-            "Keep this open-ended; grab a snack or early casual dinner.",
-            "The Duchess Theatre is nearby; verify the show curtain time on the ticket."
+            "Pick an easy lunch for the kids.",
+            "Agree on a group reunion time and location before the evening show.",
+            "Aimee and Linda will be at The Royal Exchange until 3:45 PM."
           ],
-          "transport": "Walk from Check It Vintage toward Covent Garden Piazza; later continue on foot to Duchess Theatre.",
+          "transport": "Stay in the Covent Garden/Seven Dials area while Aimee and Linda travel to the Royal Exchange.",
           "scheduleType": "flexible",
-          "timeNote": "Suggested time · flexible, not booked"
+          "timeNote": "Family splits after trench shopping · flexible"
         }
       ],
-      "knowBefore": "Shopping stops and times are flexible, not bookings. PRIORITY: Check It Vintage (1 Short’s Gardens) opens at noon according to current listings; allow plenty of try-on time for a vintage Burberry trench. Meet at hotel about 9:15 AM, aim to leave 9:20 AM. Theatre curtain time remains unverified: check your original ticket."
+      "knowBefore": "CONFIRMED festive afternoon tea for Aimee and Linda only, 2:30 PM at Jean-Georges at The Connaught (Carlos Place, Mayfair), reference 4VC7SUW6MDN6. This replaces the prior Fortnum & Mason Royal Exchange tea booking. Prioritize the vintage Burberry trench at Check It Vintage around 12:30–1:30 PM; skip optional Piccadilly browsing if running behind. Aimee and Linda should leave Seven Dials around 1:30 PM for tea. Mike and Brody entertain Lily, Zoe and Palmer and coordinate a reunion before the theatre. Theatre curtain time still needs verification against original tickets."
     },
     {
       "date": "2026-11-27",
@@ -439,17 +496,32 @@
           "scheduleType": "flexible"
         },
         {
-          "title": "Harrods Knightsbridge",
-          "detail": "Shopping, Jellycat Airlines and the Ralph Lauren Christmas pop-up (availability/location to verify). No Burberry photo booth.",
+          "title": "Harrods Knightsbridge — shopping",
+          "detail": "Explore Harrods, including holiday displays and the Ralph Lauren Christmas pop-up if operating (location/availability unconfirmed). Jellycat Airlines is a separate priority stop on the Fourth Floor.",
           "place": "Harrods, 87-135 Brompton Road, London SW1X 7XL, United Kingdom",
           "origin": "Hyde Park Winter Wonderland, London W2 2UH, United Kingdom",
           "transport": "Walk toward Knightsbridge if comfortable or take a short taxi/Tube ride. Check the precise Winter Wonderland exit.",
           "tips": [
-            "Head to Jellycat Airlines first if it is the main priority.",
-            "Ask staff whether the Ralph Lauren Christmas pop-up is operating and where to find it.",
+            "Head to the Fourth Floor Jellycat Airlines first if it is the main priority.",
+            "Ask staff about the Ralph Lauren Christmas pop-up and its location.",
             "Harrods is large: agree on a meeting point if the group splits up."
           ],
           "scheduleType": "flexible"
+        },
+        {
+          "title": "Jellycat Airlines — Harrods Fourth Floor",
+          "detail": "PRIORITY for the daughter: visit the aviation-themed Jellycat Airlines boutique on the Fourth Floor in the Toys Department. Explore the luggage carousel, airport-style displays, photo spots and exclusive plush toys (stock not guaranteed). Jellycat states no advance booking required for Airlines; ask staff about current queues on arrival. Do not confuse with Jellycat Brunch, a different experience opening November 30, after this trip.",
+          "place": "Harrods, Fourth Floor Toys Department, 87–135 Brompton Road, London SW1X 7XL, United Kingdom",
+          "origin": "Harrods, 87–135 Brompton Road, London SW1X 7XL, United Kingdom",
+          "scheduleType": "flexible",
+          "timeNote": "During Harrods visit · walk-in, not reserved",
+          "transport": "Inside Harrods: take the lifts or escalators to the Fourth Floor Toys Department; follow signs for Jellycat Airlines.",
+          "tips": [
+            "Harrods and Jellycat identify Jellycat Airlines as Fourth Floor, Toys Department.",
+            "Official Jellycat guidance says no advance booking required for Airlines; lines may form.",
+            "Check with staff about queue location and access on the day.",
+            "Jellycat Brunch is a separate bookable experience opening November 30, not available during this trip."
+          ]
         },
         {
           "title": "Casual dinner",
@@ -458,7 +530,7 @@
           "scheduleType": "flexible"
         }
       ],
-      "knowBefore": "Flexible shopping day. Check Winter Wonderland entry and Harrods experiences before heading out."
+      "knowBefore": "Friday is flexible. Jellycat Airlines is a PRIORITY stop on the Fourth Floor of Harrods (Toys Department), and Jellycat says no advance booking required; confirm queues with staff. Do not confuse with Jellycat Brunch opening November 30. Check Winter Wonderland admission and the Ralph Lauren pop-up before heading out."
     },
     {
       "date": "2026-11-28",
@@ -477,7 +549,8 @@
             "Follow the exact pickup and meeting-point instructions in your Transfeero confirmation."
           ],
           "tips": [],
-          "scheduleType": "transport"
+          "scheduleType": "transport",
+          "bookingReference": "78820606"
         },
         {
           "time": "15:50",
